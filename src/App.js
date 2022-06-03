@@ -1,10 +1,13 @@
-import './App.css';
-
+/** @format */
+import "./App.css";
+import Counter from "./components/Counter";
+import Post from "./components/Post";
 
 function App() {
   return (
     <div className="App">
-   <h1>redux app</h1>
+      {/* <Counter /> */}
+      <Post />
     </div>
   );
 }
